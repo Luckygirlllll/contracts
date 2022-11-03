@@ -6,6 +6,7 @@ import "@thirdweb-dev/contracts/extension/PermissionsEnumerable.sol";
 
 contract Contract is ERC721Base, PermissionsEnumerable{
 
+// thirdweb contract link https://thirdweb.com/goerli/0x70DC6D27Dd919e0dfE1fcB41ea43D71f83892016/
 // A mapping is a key-value store that lets us keep data in our contract.
 // Here, the key is the token ID, and the value is the power level for that NFT.
 mapping(uint256 => uint256) public powerLevel;
